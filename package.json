@@ -1,0 +1,46 @@
+{
+  "name": "babel-preset-meipian",
+  "version": "1.0.0",
+  "description": "Meipian project babel presets core",
+  "main": "index.js",
+  "scripts": {
+    "babel": "npx babel ./test --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.meipian.cn/fore/npm/babel-preset-meipian.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.meipian.cn/fore/npm/babel-preset-meipian/issues"
+  },
+  "keywords": [
+    "babel",
+    "meipian"
+  ],
+  "author": {
+    "name": "wangqingzhu",
+    "email": "wangqingzhu@lanjingren.com"
+  },
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": [
+      "meipian"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "eslint": "^5.16.0",
+    "eslint-config-meipian": "^1.0.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-decorators": "^7.4.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/polyfill": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-plugin-dynamic-import-node": "^2.2.0",
+    "core-js": "^3.0.1",
+    "deepmerge": "^3.2.0"
+  }
+}
