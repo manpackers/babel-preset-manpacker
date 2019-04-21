@@ -12,7 +12,7 @@ The following plug-ins are used:<br>
 <code>"@babel/plugin-proposal-decorators"</code>.<br>
 <code>"@babel/plugin-syntax-dynamic-import"</code>.<br>
 <code>"@babel/polyfill"</code>.<br>
-<code>"babel-plugin-dynamic-import-node"</code>.<br>
+<code>"babel-plugin-dynamic-import-node"</code>.<br><br>
 Babel presets polyfill default config:<br>
 ```
 {"useBuiltIns": "usage", corejs: 3}
