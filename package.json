@@ -1,36 +1,40 @@
 {
-  "name": "babel-preset-meipian",
+  "name": "babel-preset-manpacker",
   "version": "1.0.0",
-  "description": "Meipian project babel presets core",
+  "description": "Manpacker babel presets core encapsulation",
   "main": "index.js",
   "scripts": {
     "babel": "npx babel ./test --out-dir dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.meipian.cn/fore/npm/babel-preset-meipian.git"
+    "url": "git+https://github.com/manpackers/babel-preset-manpacker.git"
   },
   "bugs": {
-    "url": "https://gitlab.meipian.cn/fore/npm/babel-preset-meipian/issues"
+    "url": "https://github.com/manpackers/babel-preset-manpacker/issues"
   },
   "keywords": [
+    "@babel",
+    "presets",
     "babel",
-    "meipian"
+    "polyfill",
+    "core-js",
+    "manpacker"
   ],
   "author": {
     "name": "wangqingzhu",
-    "email": "wangqingzhu@lanjingren.com"
+    "email": "wangqingzhu36@126.com"
   },
-  "license": "ISC",
+  "license": "MIT",
   "eslintConfig": {
     "extends": [
-      "meipian"
+      "manpacker"
     ]
   },
   "devDependencies": {
     "@babel/cli": "^7.4.3",
     "eslint": "^5.16.0",
-    "eslint-config-meipian": "^1.0.0"
+    "eslint-config-manpacker": "^1.1.0"
   },
   "dependencies": {
     "@babel/core": "^7.4.3",
