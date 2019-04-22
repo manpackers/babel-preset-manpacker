@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-manpacker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Manpacker babel presets core encapsulation",
   "main": "index.js",
   "scripts": {
@@ -18,10 +18,9 @@
   },
   "homepage": "https://github.com/manpackers/babel-preset-manpacker",
   "keywords": [
-    "@babel",
+    "babel-core",
     "presets",
-    "babel",
-    "polyfill",
+    "babel-polyfill",
     "core-js",
     "manpacker"
   ],
