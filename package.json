@@ -24,7 +24,7 @@
   "author": {
     "name": "winterfete"
   },
-  "license": "ISC",
+  "license": "MIT",
   "eslintConfig": {
     "extends": [
       "manpacker"
