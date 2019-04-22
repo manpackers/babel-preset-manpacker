@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-manpacker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Manpacker babel presets core encapsulation",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,7 @@
     "name": "wangqingzhu",
     "email": "wangqingzhu36@126.com"
   },
-  "license": "MIT",
+  "license": "ISC",
   "eslintConfig": {
     "extends": [
       "manpacker"
