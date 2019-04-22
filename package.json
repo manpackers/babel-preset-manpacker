@@ -6,9 +6,6 @@
   "scripts": {
     "babel": "npx babel ./test --out-dir dist"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/manpackers/babel-preset-manpacker.git"
@@ -25,8 +22,7 @@
     "manpacker"
   ],
   "author": {
-    "name": "wangqingzhu",
-    "email": "wangqingzhu36@126.com"
+    "name": "winterfete"
   },
   "license": "ISC",
   "eslintConfig": {
