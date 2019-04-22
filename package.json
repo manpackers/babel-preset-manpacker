@@ -33,7 +33,7 @@
   "devDependencies": {
     "@babel/cli": "^7.4.3",
     "eslint": "^5.16.0",
-    "eslint-config-manpacker": "^1.1.0"
+    "eslint-config-manpacker": "^1.1.1"
   },
   "dependencies": {
     "@babel/core": "^7.4.3",
